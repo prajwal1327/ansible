@@ -1,0 +1,7 @@
+[group_dev]
+slave ansible_host=172.31.5.252 ansible_user=root
+server ansible_host=172.31.9.179 ansible_user=ubuntu
+[group_artifact]
+artifactory ansible_host=172.31.45.169 ansible_user=root
+[group_tomcat]
+tomcat ansible_host=172.31.7.114 ansible_user=root
