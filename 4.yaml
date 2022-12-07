@@ -1,0 +1,7 @@
+---
+- name: sshd
+  hosts: group_artifact
+  tasks:
+  - name: status
+    shell: service sshd status
+    
