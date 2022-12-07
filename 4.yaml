@@ -1,6 +1,6 @@
 ---
 - name: sshd
-  hosts: group_artifact
+  hosts: group_dev
   tasks:
   - name: status
     shell: service sshd status
