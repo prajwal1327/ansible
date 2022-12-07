@@ -1,6 +1,6 @@
 ---
 - name: sshd
-  hosts: group_dev
+  hosts: all
   tasks:
   - name: status
     shell: service sshd status
