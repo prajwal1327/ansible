@@ -4,4 +4,9 @@
   tasks:
   - name: status
     shell: service sshd status
+  - name: update
+    apt:
+      upgrade: yes
+      update_cache: yes
+     become: true
     
